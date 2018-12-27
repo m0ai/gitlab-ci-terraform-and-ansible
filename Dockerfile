@@ -10,3 +10,4 @@ RUN apk add unzip && \
 RUN apk add ansible=${ANSIBLE_VERSION}
 RUN apk add make
 RUN apk add --no-cache openssh
+RUN apk add git
